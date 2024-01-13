@@ -4,7 +4,7 @@
 target 'Sign-In-Up' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+ pod 'SnapKit', '~> 5.6.0'
   # Pods for Sign-In-Up
 
   target 'Sign-In-UpTests' do
@@ -14,7 +14,7 @@ target 'Sign-In-Up' do
 
   target 'Sign-In-UpUITests' do
     # Pods for testing
-    pod 'SnapKit', '~> 5.7.0'
   end
 
 end
+
